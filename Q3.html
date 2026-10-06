@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Card</title>
+
+    <style>
+        .card {
+            width: 280px;
+            border: 1px solid #4a5568;
+            padding: 20px;
+            margin: 40px auto;
+            text-align: center;
+            border-radius: 6px;
+            background-color: #f7fafc;
+        }
+
+        .card img {
+            width: 50%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .card h2 {
+            margin: 12px 0 6px 0;
+            font-size: 22px;
+            color: #2d3748;
+        }
+
+        .card p {
+            color: #718096;
+            font-size: 15px;
+            margin: 8px 0;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2b6cb0;
+        }
+
+        .card button {
+            background-color: #2d3748;
+            color: #ffffff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 8px #cbd5e0;
+            transform: scale(1.02);
+        }
+
+        .card button:hover {
+            background-color: #1a202c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="images/zero.webp" alt="Earbuds"  width="200">
+        <h2>Zero Earbuds</h2>
+        <p>
+            50 Hours battery backup
+        </p>
+        <p class="price">$29.99</p>
+        <button>Buy Now</button>
+    </div>
+
+</body>
+</html>
